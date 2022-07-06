@@ -1,0 +1,59 @@
+#navbtn{
+    background-color: whitesmoke;
+    color: #007bff;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+
+}
+
+#navbtn:hover{
+    background-color:#007bff;
+    color: white;
+}
+
+#img1 {
+    position: absolute;
+    left:  750px;
+    top: 0  ;
+    z-index: 1;
+    
+}
+
+#listOfService{
+    background-image: url("images/side-imaeg-right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#steps{
+    background-image: url("images/side-image.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.checked {
+    color: orange;
+  }
+  .card-img {
+    position: absolute;
+    top: -30px;
+    left: 35%;
+    margin-left: -30px;
+    width: 60px !important;
+    height: 60px;
+  }
+
+  .card-t {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .navbar-brand {
+    background: url(images/download.jpg) center / contain no-repeat;
+    transform: translateX(-20%);
+    left: 50%;
+    position: absolute;
+    width: 600px; 
+    height: 40px;
+
+  }
